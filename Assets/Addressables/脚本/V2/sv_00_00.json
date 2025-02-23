@@ -1,0 +1,3307 @@
+{
+  "Commands": [
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 0,
+      "Parameters": {
+        "key": "CanAuto",
+        "value": false
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 1,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": false
+      }
+    },
+    {
+      "CommandType": "VisionTrigger",
+      "Identifier": 2,
+      "Parameters": {}
+    },
+    {
+      "CommandType": "Engine.SetChapter",
+      "Identifier": 3,
+      "Parameters": {
+        "id": "00",
+        "title": "序幕"
+      }
+    },
+    {
+      "CommandType": "Engine.SetUIMode",
+      "Identifier": 4,
+      "Parameters": {
+        "mode": 5
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 5,
+      "Parameters": {
+        "key": "SYSTEM__StoryBlock_1",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "AudioManager.VolumeChange",
+      "Identifier": 6,
+      "Parameters": {
+        "duration": 0,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "Text.ChangeAlpha",
+      "Identifier": 7,
+      "Parameters": {
+        "alpha_began": 0,
+        "alpha_ended": 0,
+        "time": 0
+      }
+    },
+    {
+      "CommandType": "Text.SetTextSpeed",
+      "Identifier": 8,
+      "Parameters": {
+        "speed": 1000
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 9,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "栗原 瑛斗",
+        "dialogue": "视线从天而降。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 10,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02A_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 11,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "texture": "B_第一章/02A_开场字幕.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 12
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 13,
+      "Parameters": {
+        "target": "Image",
+        "name": "p2"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 14,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02B_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 15,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "texture": "B_第一章/02B_开场字幕.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 16,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "栗原 瑛斗",
+        "dialogue": "那视线穿过大气、刺透云层和雨雾，直射向我。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 17
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 18,
+      "Parameters": {
+        "target": "Image",
+        "name": "p2"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 19,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02C_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 20,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "texture": "B_第一章/02C_开场字幕.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 21,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "栗原 瑛斗",
+        "dialogue": "朦胧的意识中，我本能地渴望着这道视线继续注视着我。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 22
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 23,
+      "Parameters": {
+        "target": "Image",
+        "name": "p2"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 24,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02D_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 25,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "texture": "B_第一章/02D_开场字幕.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 26,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "栗原 瑛斗",
+        "dialogue": "似乎只要不这么做，我细若游丝的存在就会立刻烟消云散。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 27
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 28,
+      "Parameters": {
+        "target": "Image",
+        "name": "p2"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 29,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02E_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 30,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "texture": "B_第一章/02E_开场字幕.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 31,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "栗原 瑛斗",
+        "dialogue": "…………",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 32
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 33,
+      "Parameters": {
+        "target": "Image",
+        "name": "p2"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 34,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02F_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 35,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "texture": "B_第一章/02F_开场字幕.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 36,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "栗原 瑛斗",
+        "dialogue": "人们把肉眼可见的星体亮度，分为了六个视星等。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 37
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 38,
+      "Parameters": {
+        "target": "Image",
+        "name": "p2"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 39,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02G_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 40,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "texture": "B_第一章/02G_开场字幕.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 41,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "栗原 瑛斗",
+        "dialogue": "在他们的视野中，不断跳动、明灭交替的“我”，",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 42
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 43,
+      "Parameters": {
+        "target": "Image",
+        "name": "p2"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 44,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02H_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 45,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "texture": "B_第一章/02H_开场字幕.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p2",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 46,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "栗原 瑛斗",
+        "dialogue": "是否只允许被测算出七等星的黯淡光亮呢？",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 47
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 48,
+      "Parameters": {
+        "target": "Image",
+        "name": "p2"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 49,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "p1",
+              "video": "B_第一章_视频/02I_开场字幕.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 50,
+      "Parameters": {
+        "duration": 2
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 51,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "vd1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "vd1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "vd1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "vd1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "vd1",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "vd1",
+              "video": "B_第一章_视频/03A_世界线变动率.mp4",
+              "loop": false,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 52,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 53,
+      "Parameters": {
+        "key": "CanAuto",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 54,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/01_回路启动.ogg",
+        "volume": 0.5,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "Engine.SetUIMode",
+      "Identifier": 55,
+      "Parameters": {
+        "mode": 5
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 56,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "Text.ChangeAlpha",
+      "Identifier": 57,
+      "Parameters": {
+        "alpha_began": 0,
+        "alpha_ended": 1,
+        "time": 0.5
+      }
+    },
+    {
+      "CommandType": "Text.SetTextSpeed",
+      "Identifier": 58,
+      "Parameters": {
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 59,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "空气中二氧化硫含量极高，方圆十公里内没有检测到任何动植物生命活动，只能看到零零散散的机器人在街上游荡。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 60
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 61,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "真奇怪啊，明明人都已经死光了，那些机器人还能自动运行下去。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 62
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 63,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "总有一天会电量耗尽的吧。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 64,
+      "Parameters": {
+        "audio": "//BGM/K03-劫后余生.mp3",
+        "volume": 0.8,
+        "loop": true,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 65
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 66,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 67,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 68,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg1",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg1",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg1",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg1",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg1",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg1",
+              "video": "//背景/B_第一章/01A_废墟东京.mp4",
+              "loop": true,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 69,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetScale",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg1",
+                    "scale": 1.75,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg1",
+                    "x": 0,
+                    "y": 250,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetRotation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg1",
+                    "angle": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg1",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetKeepMove",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg1",
+              "x": 0,
+              "y": 0,
+              "angle": 0,
+              "scale": 1,
+              "duration": 20,
+              "curve": "uniform",
+              "alpha": 1,
+              "alphaTime": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 70,
+      "Parameters": {
+        "duration": 2.5
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 71,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 72,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "…………",
+        "avater": "",
+        "speed": 5
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 73
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 74,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 75,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 76,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "第三次……世界大战。",
+        "avater": "",
+        "speed": 5
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 77
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 78,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "您看出来了啊，这座城市所经历的惨剧。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 79
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 80,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "西北方向有卫星武器造成的冲击坑，那应该是战争留下的创痕。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 81
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 82,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/07_提示弹出.ogg",
+        "volume": 1,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ConditionalExecution",
+      "Identifier": 84,
+      "Parameters": {
+        "key": "PLATFORM__IsMobile",
+        "value": true,
+        "command": {
+          "CommandType": "SequentialCommand",
+          "Identifier": 85,
+          "Parameters": {
+            "subcommands": [
+              {
+                "CommandType": "SequentialCommand",
+                "Identifier": 83,
+                "Parameters": {
+                  "subcommands": [
+                    {
+                      "CommandType": "ImageManager.Add",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "texture": "B_第一章/01_Tips提示.png"
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetScale",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "scale": 1,
+                        "duration": 0.0,
+                        "curve": "constant"
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetLocation",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "x": 1222,
+                        "y": 350,
+                        "duration": 0.0,
+                        "curve": "constant"
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetRotation",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "angle": 0,
+                        "duration": 0.0,
+                        "curve": "constant"
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetFade",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "alpha": 1,
+                        "duration": 0.0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "CommandType": "ConditionalExecution",
+      "Identifier": 87,
+      "Parameters": {
+        "key": "PLATFORM__IsMobile",
+        "value": false,
+        "command": {
+          "CommandType": "SequentialCommand",
+          "Identifier": 88,
+          "Parameters": {
+            "subcommands": [
+              {
+                "CommandType": "SequentialCommand",
+                "Identifier": 86,
+                "Parameters": {
+                  "subcommands": [
+                    {
+                      "CommandType": "ImageManager.Add",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "texture": "B_第一章/01_Tips提示_PC.png"
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetScale",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "scale": 1,
+                        "duration": 0.0,
+                        "curve": "constant"
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetLocation",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "x": 1222,
+                        "y": 350,
+                        "duration": 0.0,
+                        "curve": "constant"
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetRotation",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "angle": 0,
+                        "duration": 0.0,
+                        "curve": "constant"
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetFade",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "UI",
+                        "name": "tip1",
+                        "alpha": 1,
+                        "duration": 0.0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 89,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 90,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "？？？",
+              "dialogue": "2036年2月6日，位于东京上空的的<link=001><color=#ff6000>SA4D-147号机</color></link>对丰岛园发动了攻击，摧毁了半径6km内的所有建筑。",
+              "avater": "",
+              "speed": -1
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 91,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "tip1",
+                    "x": 1222,
+                    "y": 350,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "tip1",
+                    "x": 698,
+                    "y": 350,
+                    "duration": 1,
+                    "curve": "uniform"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 92
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 93,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "这次攻击十分突然、毫无征兆，造成了多达26万人的伤亡，但事后却没有任何国家或组织宣称对此负责。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 94
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 95,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "只能认为，它是计算机故障所引发的意外。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 96
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 97,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "但这起事件却暴露了各大国之间的核威慑平衡已被打破的事实，因此成为了第三次世界大战的导火索。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 98
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 99,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "真少见啊，居然是在2036年之后才开始爆发的三战。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 100
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 101,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "奇怪的是，直到一年前，我们的预警系统都没有发出任何警报，说明这条世界线本来是不会爆发三战的。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 102
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 103,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 104,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "？？？",
+              "dialogue": "有人，引发了世界线变动。",
+              "avater": "",
+              "speed": -1
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 105,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "tip1",
+                    "x": 698,
+                    "y": 350,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "tip1",
+                    "x": 1222,
+                    "y": 350,
+                    "duration": 1,
+                    "curve": "uniform"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 106,
+      "Parameters": {
+        "target": "UI",
+        "name": "tip1"
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 107
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 108,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "…………",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 109
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 110,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "接下来，请你连入一下这个接口。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 111
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 112,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/01_回路启动.ogg",
+        "volume": 0.5,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 113,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg2",
+              "texture": ""
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg2",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg2",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayVideo",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg2",
+              "video": "//背景/B_第一章/01B_废墟东京.mp4",
+              "loop": true,
+              "volume": 1.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 114,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg2",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg2",
+              "alpha": 1,
+              "duration": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 115,
+      "Parameters": {
+        "target": "Image",
+        "name": "bg1"
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 116,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "这是什么？",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 117
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 118,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "我们在废墟中找到的一台仍在接受供电的量子计算机，其内部运行着一个模拟现实的程序世界。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 119
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 120,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "什么意思？你是说有人造出了可以预测未来的地球模拟器，所以改变了历史走向——",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 121
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 122,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "Text.ChangeAlpha",
+      "Identifier": 123,
+      "Parameters": {
+        "alpha_began": 1,
+        "alpha_ended": 0,
+        "time": 0.5
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 124,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg3",
+              "texture": "//背景/B_第一章/01C_繁荣东京.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg3",
+              "scale": 1.4,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg3",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg3",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg3",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 125,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 126,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.Add",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg4",
+                    "texture": ""
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetScale",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg4",
+                    "scale": 1,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg4",
+                    "x": 0,
+                    "y": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetRotation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg4",
+                    "angle": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg4",
+                    "alpha": 1,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.PlayVideo",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg4",
+                    "video": "//背景/B_第一章/01D_畸变转场.mp4",
+                    "loop": false,
+                    "volume": 1.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 128,
+            "Parameters": {
+              "duration": 1.0,
+              "command": {
+                "CommandType": "SequentialCommand",
+                "Identifier": 127,
+                "Parameters": {
+                  "subcommands": [
+                    {
+                      "CommandType": "ImageManager.SetFade",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "Image",
+                        "name": "bg3",
+                        "alpha": 0,
+                        "duration": 0.0
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetFade",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "Image",
+                        "name": "bg3",
+                        "alpha": 1,
+                        "duration": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 130,
+            "Parameters": {
+              "duration": 1.0,
+              "command": {
+                "CommandType": "ImageManager.Remove",
+                "Identifier": 129,
+                "Parameters": {
+                  "target": "Image",
+                  "name": "bg2"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 131,
+      "Parameters": {
+        "target": "Image",
+        "name": "bg4"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 132,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetScale",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg3",
+                    "scale": 1.4,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg3",
+                    "x": 0,
+                    "y": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetRotation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg3",
+                    "angle": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg3",
+                    "alpha": 1,
+                    "duration": 0.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetKeepMove",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "bg3",
+              "x": 0,
+              "y": 0,
+              "angle": 0,
+              "scale": 1,
+              "duration": 10,
+              "curve": "uniform",
+              "alpha": 1,
+              "alphaTime": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ChangeAlpha",
+      "Identifier": 133,
+      "Parameters": {
+        "alpha_began": 0,
+        "alpha_ended": 1,
+        "time": 0.5
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 134,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "这是……？",
+        "avater": "",
+        "speed": 10
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 135
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 136,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "这就是那个程序世界内部的景象，显然它不是用于预测未来的。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 137
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 138,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "你确定这是模拟现实的程序世界？不是什么战时避难所？",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 139
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 140,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "我的判断不会有错，这个模拟世界的信息量有有<link=002><color=#ff6000>100ZB</color></link>，和现实世界是同一数量级的。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 141
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 142,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "你现在到街上去随便问一个行人，他都会回答你现在是2037年，没有人会觉得自己正身处在程序世界之中。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 143
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 144,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "这不可能。基于战乱年代模拟的世界，不可能表现出如此高度的和平与繁荣。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 145
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 146,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "是的，这也正是我感到费解的地方。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 147
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 148,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "不过，听说上面的大人物提出了一个猜想。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 149
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 150,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "——会不会，有人<b>将现实世界和模拟世界进行了调换</b>？",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 151
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 152,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "<size=42>……！</size>",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 153
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 154,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "将计算机内模拟的战乱世界覆盖进了现实、又将本应和平的现实世界转移进了计算机。这样，就神不知鬼不觉地完成了一次世界线变动。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 155
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 156,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "怎么会有这种荒唐的事情……",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 157
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 158,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "很难想象幕后黑手在策划怎样的阴谋。无论如何，我们都必须想办法介入调查，阻止这个世界走向更不可预料的未来。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 159
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 160,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "你刚才说，这个模拟世界的信息量有100ZB，其中应该包含了从公元前3500年到现在的所有历史数据吧？",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 161
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 162,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "没错。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 163
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 164,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "它和现实世界的历史有重合吗？",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 165
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 166,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "有，直到2035年为止，都是一致的。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 167
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 168,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "那分歧点在？",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 169
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 170,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "2035年2月6日，东京市练马区。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 171
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 172,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "两年前啊。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 173
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 174,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "这是世界线最初产生偏移的时间点，想要查明SA4D故障的真相，可能还要往后观察一年。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 175
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 176,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "明白了，这次的任务我接下了。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 177
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 178,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "你将以『调查员』的身份潜入2035年。这是必须避开委员会监视的秘密任务，我们仅有这唯一的一次机会。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 179
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 180,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "我无法越过规则为你提供物质援助，但我会留作为『观察员』留在这里稳定你的存在。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 181
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 182,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 183,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 184,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 185,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg3",
+                    "alpha": 1,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "bg3",
+                    "alpha": 0,
+                    "duration": 2
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 186,
+      "Parameters": {
+        "target": "Image",
+        "name": "bg3"
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 187,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/02_回路关闭.ogg",
+        "volume": 0.5,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 188,
+      "Parameters": {
+        "duration": 1.5
+      }
+    },
+    {
+      "CommandType": "Text.ChangeAlpha",
+      "Identifier": 189,
+      "Parameters": {
+        "alpha_began": 0,
+        "alpha_ended": 1,
+        "time": 0.5
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 190,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "Prober",
+        "dialogue": "对了，还没问怎么称呼你。你有代号吗？",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 191
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 192,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "…………",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 193
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 194,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "就叫我……",
+        "avater": "",
+        "speed": 10
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 195
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 196,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？？",
+        "dialogue": "<b>Vision</b>吧。",
+        "avater": "",
+        "speed": -1
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 197
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 198,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 199,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 200,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          },
+          {
+            "CommandType": "AudioManager.VolumeChange",
+            "Identifier": 201,
+            "Parameters": {
+              "duration": 2,
+              "begin": 0.8,
+              "end": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 202,
+      "Parameters": {
+        "key": "CanAuto",
+        "value": false
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 203,
+      "Parameters": {
+        "duration": 1.5
+      }
+    },
+    {
+      "CommandType": "Engine.JumpToScript",
+      "Identifier": 204,
+      "Parameters": {
+        "script": "脚本/V2/sv_01_01.json"
+      }
+    }
+  ]
+}

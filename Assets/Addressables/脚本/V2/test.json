@@ -1,0 +1,6709 @@
+{
+  "Commands": [
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 0,
+      "Parameters": {
+        "key": "SYSTEM__StoryBlock_6",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 1,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": false
+      }
+    },
+    {
+      "CommandType": "VisionTrigger",
+      "Identifier": 2,
+      "Parameters": {}
+    },
+    {
+      "CommandType": "Engine.SetChapter",
+      "Identifier": 3,
+      "Parameters": {
+        "id": "01",
+        "title": "边界徘徊的七等星"
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 4,
+      "Parameters": {
+        "audio": "//BGM/A01_Pulse_PVver.mp3",
+        "volume": 0,
+        "loop": false,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "Engine.SetUIMode",
+      "Identifier": 5,
+      "Parameters": {
+        "mode": 5
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 6,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 7,
+      "Parameters": {
+        "key": "CanAuto",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 8,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "texture": "//背景/B_第一章/02B_鸦巢公寓物业室_夜晚.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 9,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "texture": "//背景/B_第一章/02B_鸦巢公寓物业室_夜晚.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 10,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A10_落寞.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "scale": 1.25,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "x": 0,
+              "y": -675,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "colorcode": "#F0F0DE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 11,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yukie",
+              "texture": "B04_吉田雪绘/B01_平常.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yukie",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yukie",
+              "x": 0,
+              "y": -450,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yukie",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yukie",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yukie",
+              "colorcode": "#F0F0DE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.PlayEffect",
+      "Identifier": 12,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "type": "CoveringIn",
+        "direction": "left",
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 13,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 14,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 15
+    },
+    {
+      "CommandType": "Camera.PlayFx",
+      "Identifier": 16,
+      "Parameters": {
+        "name": "SpeedLineOn",
+        "duration": 0
+      }
+    },
+    {
+      "CommandType": "Frame.BMIOn",
+      "Identifier": 17,
+      "Parameters": {
+        "color": "pink",
+        "duration": 1.0
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 18,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "speed line on: 2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 19
+    },
+    {
+      "CommandType": "Frame.BMIOn",
+      "Identifier": 20,
+      "Parameters": {
+        "color": "blue",
+        "duration": 1.0
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 21,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 22
+    },
+    {
+      "CommandType": "Frame.BMIOn",
+      "Identifier": 23,
+      "Parameters": {
+        "color": "gray",
+        "duration": 1.0
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 24,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 25
+    },
+    {
+      "CommandType": "Frame.BMIOff",
+      "Identifier": 26,
+      "Parameters": {
+        "color": "pink",
+        "duration": 1.0
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 27,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 28
+    },
+    {
+      "CommandType": "Frame.BMIOff",
+      "Identifier": 29,
+      "Parameters": {
+        "color": "blue",
+        "duration": 1.0
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 30,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 31
+    },
+    {
+      "CommandType": "Frame.BMIOff",
+      "Identifier": 32,
+      "Parameters": {
+        "color": "gray",
+        "duration": 1.0
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 33,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 34
+    },
+    {
+      "CommandType": "ImageManager.PlayEffect",
+      "Identifier": 35,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "type": "CoveringOut",
+        "direction": "left",
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 36,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 37
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 38,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 39
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 40,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "2035年9月8日（星期六）凌晨，0时22分。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 41
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 42,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Engine.SetUIMode",
+      "Identifier": 43,
+      "Parameters": {
+        "mode": 4
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 44,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "alpha": 1,
+              "duration": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Engine.SetUIMode",
+      "Identifier": 45,
+      "Parameters": {
+        "mode": 2
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 46,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "texture": "A_系统UI/01_BMI边框.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "scale": 1.3,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 47,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/01_回路启动.ogg",
+        "volume": 0.4,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 48,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "scale": 1.3,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "scale": 1,
+              "duration": 0.5,
+              "curve": "uniform"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 49,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 50,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我附在草加警官的BMI上，见到了来访的SEGMA公司社员。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 51
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 52,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 53,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "alpha": 1,
+              "duration": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetBlur",
+      "Identifier": 54,
+      "Parameters": {
+        "target": "Image",
+        "name": "Move",
+        "radius": 1.0,
+        "duration": 5
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 55
+    },
+    {
+      "CommandType": "ImageManager.SetBlur",
+      "Identifier": 56,
+      "Parameters": {
+        "target": "Image",
+        "name": "Move",
+        "radius": 0.0,
+        "duration": 5
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 57
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 58,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetScale",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "Move",
+                    "scale": 1.25,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "Move",
+                    "x": -150,
+                    "y": -135,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetRotation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "Move",
+                    "angle": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "Move",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetKeepMove",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "x": 150,
+              "y": -135,
+              "angle": 0,
+              "scale": 1.25,
+              "duration": 120,
+              "curve": "uniform",
+              "alpha": 1,
+              "alphaTime": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 59,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 60,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "alpha": 1,
+                    "duration": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 61,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetScale",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "scale": 1.5,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetLocation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "x": -220,
+                          "y": -875,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetRotation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "angle": 0,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetKeepMove",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -420,
+                    "y": -875,
+                    "angle": 0,
+                    "scale": 1.5,
+                    "duration": 120,
+                    "curve": "uniform",
+                    "alpha": -1,
+                    "alphaTime": 0
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 62,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "佐野 阳向",
+        "dialogue": "<size=42>！？</size>",
+        "avater": "蓝/A02_佐野阳向/C18_受击.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 63,
+      "Parameters": {
+        "audio": "//SE/G_氛围音/02_心跳一次.ogg",
+        "volume": 0.8,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 64
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 65,
+      "Parameters": {
+        "audio": "//BGM/K01-时之雨.mp3",
+        "volume": 0.7,
+        "loop": true,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 66,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "factor": 0.4
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 67,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "不知为何，见到这名女子的瞬间，我的内心猛地一颤。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 68
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 69,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "强烈的熟悉感在脑海中涌现，仿佛要冲破记忆的界限让我回想起什么。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 70
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 71,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 72,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": false
+      }
+    },
+    {
+      "CommandType": "Camera.PlayFx",
+      "Identifier": 73,
+      "Parameters": {
+        "name": "SparkingWhite",
+        "duration": 0.3
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 74,
+      "Parameters": {
+        "duration": 0.3
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 75,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "black",
+              "texture": "A_系统UI/02_黑屏.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "black",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "black",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "black",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "black",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.StopMove",
+      "Identifier": 76,
+      "Parameters": {
+        "target": "Image",
+        "name": "Move"
+      }
+    },
+    {
+      "CommandType": "ImageManager.StopMove",
+      "Identifier": 77,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 78,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Move",
+              "alpha": 0,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 79,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 80,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Camera.PlayFx",
+            "Identifier": 81,
+            "Parameters": {
+              "name": "WhiteRestore",
+              "duration": 0.3
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 82,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.Add",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "mv",
+                    "texture": ""
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetScale",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "mv",
+                    "scale": 1,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "mv",
+                    "x": 0,
+                    "y": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetRotation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "mv",
+                    "angle": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "mv",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.PlayVideo",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "mv",
+                    "video": "//图片/B_第一章_视频/04_五十岚心弥闪回.mp4",
+                    "loop": false,
+                    "volume": 1.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 83,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "mv",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "mv",
+                    "alpha": 1,
+                    "duration": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 84,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "black",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "black",
+              "alpha": 0,
+              "duration": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 85,
+      "Parameters": {
+        "target": "UI",
+        "name": "black"
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 86,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 87,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 88,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "这种感觉……！",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 89,
+      "Parameters": {
+        "audio": "//SE/G_氛围音/02_心跳一次.ogg",
+        "volume": 0.8,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetShakeState",
+      "Identifier": 90,
+      "Parameters": {
+        "target": "Image",
+        "name": "Room",
+        "state": "weak",
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 91
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 92,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 93,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "scale": 1.25,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "x": 0,
+              "y": -675,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 94,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "factor": 2.5
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 95,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 1,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 96,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 97,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "texture": "B02_五十岚心弥/A02_吃惊.png",
+        "duration": 1
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 98,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 99,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "texture": "B02_五十岚心弥/A01_平静.png",
+        "duration": 1
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 100,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 101,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "女子",
+        "dialogue": "警官好。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 102
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 103,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/01_回路启动.ogg",
+        "volume": 0.4,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 104,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Tag",
+              "texture": "B_第一章/05_五十岚心弥身份档案.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Tag",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Tag",
+              "x": 50,
+              "y": 100,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Tag",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Tag",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 105,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 106,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "Tag",
+                    "x": 50,
+                    "y": 100,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "Tag",
+                    "x": 0,
+                    "y": 0,
+                    "duration": 0.5,
+                    "curve": "ease_out"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 107,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "Tag",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "Tag",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 108,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "从草加警官扫出的身份档案上，可以得知她的名字叫五十岚心弥。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 109
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 110,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "factor": 0.4
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 111,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "名字也感觉很熟悉，这名女子肯定与我关系匪浅。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 112
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 113,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/02_回路关闭.ogg",
+        "volume": 0.4,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 114,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 115,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "Tag",
+                    "x": 0,
+                    "y": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "Tag",
+                    "x": 50,
+                    "y": 100,
+                    "duration": 0.5,
+                    "curve": "uniform"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 116,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "Tag",
+                    "alpha": 1,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "Tag",
+                    "alpha": 0,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 117,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "要知道，就连我在得知自己的名字叫佐野阳向的时候，都没有产生过如此强烈的记忆波动。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 118,
+      "Parameters": {
+        "target": "UI",
+        "name": "Tag"
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 119
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 120,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "她……到底是谁？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 121
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 122,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "factor": 2.5
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 123,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "请坐，五十岚小姐。不必紧张，我们警方正在附近调查案子，有些事正好想找您聊聊。",
+        "avater": "蓝/B05_草加裕介/A02_微笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 124
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 125,
+      "Parameters": {
+        "audio": "//SE/C_布料声/03_蹲下身.ogg",
+        "volume": 0.8,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 126,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 127,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -9999,
+                    "y": -675,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -9999,
+                    "y": -725,
+                    "duration": 0.7,
+                    "curve": "uniform"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "ParallelCommand",
+            "Identifier": 128,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetTexture",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "texture": "B02_五十岚心弥/A04_担忧.png",
+                    "duration": 0.2
+                  }
+                },
+                {
+                  "CommandType": "Text.ShowText",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "mode": "narration",
+                    "name": "",
+                    "dialogue": "五十岚心弥接过警察递来的一次性纸杯，缓缓坐下了。",
+                    "avater": "",
+                    "speed": 30
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 129
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 130,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A08_微笑.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "谢谢……",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 131
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 132,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "您是在SEGMA公司工作的对吧？",
+        "avater": "蓝/B05_草加裕介/A02_微笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 133
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 134,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A04_担忧.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "是的，我的职位……算是志村社长身边的助理吧。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 135
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 136,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "很荣幸见到您，我听说最近那个很流行的VIEW APP就是你们公司开发……",
+        "avater": "蓝/B05_草加裕介/A02_微笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 137
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 138,
+      "Parameters": {
+        "audio": "//SE/I-器件音/05_从椅子上急站起身.ogg",
+        "volume": 0.8,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 139,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 140,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -9999,
+                    "y": -725,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -9999,
+                    "y": -675,
+                    "duration": 0.2,
+                    "curve": "uniform"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 141,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "草加裕介话音未落，五十岚突然将他打断了。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 142
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 143,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A09_抑制.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "那个！能不能请告诉我这里发生了什么案子？我、我是来这幢公寓楼找人的。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 144
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 145,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "不好意思，这个我们暂时还不能透露。不过请问一下您找的人是……",
+        "avater": "蓝/B05_草加裕介/A14_感兴趣.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 146
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 147,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "五十岚 心弥",
+        "dialogue": "我的同事！他今晚来这幢公寓和人谈生意，但现在早就过了预定时间了他还没给我回复，我担心他……会不会出事了。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 148
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 149,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "您的这个同事，莫非是叫佐野阳向？",
+        "avater": "蓝/B05_草加裕介/A08_苦笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 150
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 151,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "texture": "B02_五十岚心弥/A02_吃惊.png",
+        "duration": 0.2
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 152,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetShakeState",
+            "Identifier": 153,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "state": "weak",
+              "loop": false
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 154,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "诶？",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 155
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 156,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "五十岚 心弥",
+        "dialogue": "为什么……你会……",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 157
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 158,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetFade",
+      "Identifier": 159,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "alpha": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 160,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ParallelCommand",
+            "Identifier": 161,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetLocation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Yukie",
+                          "x": 510,
+                          "y": -880,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetLocation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Yukie",
+                          "x": 310,
+                          "y": -880,
+                          "duration": 0.7,
+                          "curve": "ease_out"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "CommandType": "NOOP",
+                  "Identifier": 1,
+                  "Parameters": {}
+                },
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetScale",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Yukie",
+                          "scale": 1.5,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetScale",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Yukie",
+                          "scale": 1.5,
+                          "duration": 0.7,
+                          "curve": "ease_out"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "CommandType": "NOOP",
+                  "Identifier": 1,
+                  "Parameters": {}
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 162,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Yukie",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Yukie",
+                    "alpha": 1,
+                    "duration": 0.7
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 163,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "就在这时，吉田雪绘从一旁走上前来，悄悄地凑到了草加耳边。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 164
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 165,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yukie",
+              "texture": "B04_吉田雪绘/B02_微笑.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "吉田 雪绘",
+              "dialogue": "喂，你别太急躁了。这孩子与被害人还说不定是什么关系呢，询问的时候最好温柔一些，不要刺激到她。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 166
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 167,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yukie",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "草加裕介摆了摆手，意思是不用担心，自己会有分寸。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 168
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 169,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 170,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "AudioManager.VolumeChange",
+            "Identifier": 171,
+            "Parameters": {
+              "duration": 1,
+              "begin": 0.7,
+              "end": 0
+            }
+          },
+          {
+            "CommandType": "ImageManager.PlayEffect",
+            "Identifier": 172,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "type": "ClockOut",
+              "direction": "",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 173,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "Engine.ClearScene",
+      "Identifier": 174,
+      "Parameters": {}
+    },
+    {
+      "CommandType": "Engine.SetUIMode",
+      "Identifier": 175,
+      "Parameters": {
+        "mode": 2
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 176,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "texture": "A_系统UI/01_BMI边框.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "BMIO",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Engine.SetChapter",
+      "Identifier": 177,
+      "Parameters": {
+        "id": "01",
+        "title": "边界徘徊的七等星"
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 178,
+      "Parameters": {
+        "audio": "//BGM/A01_Pulse_PVver.mp3",
+        "volume": 0,
+        "loop": false,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 179,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 180,
+      "Parameters": {
+        "key": "CanAuto",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 181,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "texture": "//背景/B_第一章/02B_鸦巢公寓物业室_夜晚.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Room",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 182,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A05_严肃.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "scale": 1.25,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "x": 0,
+              "y": -675,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "colorcode": "#F0F0DE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 183,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "texture": "F组/F02_女警察.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "x": 0,
+              "y": -475,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "colorcode": "#F0F0DE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 184,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "texture": "B05_草加裕介/A17_怀疑.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "x": 0,
+              "y": -525,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "colorcode": "#F0F0DE"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 185,
+      "Parameters": {
+        "audio": "//BGM/B01-理论推演.mp3",
+        "volume": 0.7,
+        "loop": true,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "ImageManager.PlayEffect",
+      "Identifier": 186,
+      "Parameters": {
+        "target": "Image",
+        "name": "Room",
+        "type": "ClockIn",
+        "direction": "",
+        "duration": 1
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 187,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 1,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 188,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 189,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "五十岚小姐，请您冷静下来听我说。",
+        "avater": "蓝/B05_草加裕介/A08_苦笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 190
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 191,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "……佐野阳向先生，已经出意外了。",
+        "avater": "蓝/B05_草加裕介/A16_悲伤.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 192
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 193,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A02_吃惊.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "<size=42>……！</size>",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 194
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 195,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "我们正在全力追查犯人的身份，可以的话……我们需要您的帮助。",
+        "avater": "蓝/B05_草加裕介/A03_严肃.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 196
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 197,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 198,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "texture": "B02_五十岚心弥/A09_抑制.png",
+        "duration": 0.2
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 199,
+      "Parameters": {
+        "audio": "//SE/C_布料声/07_布料拍打3.ogg",
+        "volume": 0.6,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetShakeState",
+      "Identifier": 200,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "state": "weak",
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 201,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 202,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 203,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -9999,
+                    "y": -675,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -9999,
+                    "y": -725,
+                    "duration": 0.3,
+                    "curve": "uniform"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 204,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "五十岚心弥有些虚弱地瘫坐在了椅子上，我隐约听到她嘴里好像在嘀咕些什么。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 205
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 206,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A10_落寞.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "<size=30>为什么……这……不可能啊……</size>",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 207
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 208,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "草加裕介耐心地沉默下来，静静地等待对方有所回应。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 209
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 210,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetTexture",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "texture": "B02_五十岚心弥/A06_沉思.png",
+                    "duration": 0
+                  }
+                },
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "alpha": 0,
+                          "duration": 0.0
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "alpha": 1,
+                          "duration": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "良晌，五十岚心弥从萎靡中恢复了一些。她表现的很克制，并没有流露出不可接受的情绪。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 211
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 212,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A04_担忧.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "已经送医院了吗？",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 213
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 214,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "是的。",
+        "avater": "蓝/B05_草加裕介/A01_平静.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 215
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 216,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A11_无奈.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "还有抢救回来的可能吗？",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 217
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 218,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "恐怕……",
+        "avater": "蓝/B05_草加裕介/A16_悲伤.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 219
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 220,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "草加裕介遗憾地摇了摇头。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 221
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 222,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A06_沉思.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "…………",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 223
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 224,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A04_担忧.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "是自杀？他杀？还是意外？",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 225
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 226,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "我们正在从不同方向调查。",
+        "avater": "蓝/B05_草加裕介/A19_谨慎.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 227
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 228,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A05_严肃.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "除了佐野君外，还有别的人出意外吗？",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 229
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 230,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "……？",
+        "avater": "蓝/B05_草加裕介/A17_怀疑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 231
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 232,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "被问到这个问题的时候，就连草加也愣了一下。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 233
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 234,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "如果你问的是这幢公寓里的人的话，没有。",
+        "avater": "蓝/B05_草加裕介/A17_怀疑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 235
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 236,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A06_沉思.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "这样啊……",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 237
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 238,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A01_平静.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "好吧，我明白了，我会配合你们调查的，有知道的事情我都会说出来。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 239
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 240,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "交涉异常顺利，这让草加颇感意外地挑了挑眉。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 241
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 242,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "先请问一下，您和佐野阳向先生的关系是？",
+        "avater": "蓝/B05_草加裕介/A02_微笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 243
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 244,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "<b>普通同事。</b>他是总架构师，我是测试师。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 245
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 246,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "您也参与了VIEW的开发吗？",
+        "avater": "蓝/B05_草加裕介/A02_微笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 247
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 248,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A06_沉思.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "是的，不过我参与的不多，多数时候是帮忙采购设备和编写测试程序。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 249
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 250,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "那正好，我们有张图片想请您看一下。",
+        "avater": "蓝/B05_草加裕介/A02_微笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 251
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 252,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 253,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A01_平静.png",
+              "duration": 0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 254,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/03_通话启动.ogg",
+        "volume": 0.4,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "Frame.PictureOn",
+      "Identifier": 255,
+      "Parameters": {
+        "image": "//图片/B_第一章/05_门上的魔法阵.png",
+        "color": "blue",
+        "duration": 0.3
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 256,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "草加裕介用BMI将图片共享了过去。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 257
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 258,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "这是在案发现场的门上发现的，有目击线索称在使用VIEW的全景地图看走廊旁的房门时，突然出现了这个图案。您对此有什么头绪吗？",
+        "avater": "蓝/B05_草加裕介/A19_谨慎.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 259
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 260,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "五十岚心弥歪着脑袋观察了一会儿，然后面无表情地摇了摇头。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 261
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 262,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "五十岚 心弥",
+        "dialogue": "我也不知道这是什么，是从什么黑魔法类书籍上抄下来的图案吗？",
+        "avater": "蓝/B02_五十岚心弥/A05_严肃.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 263
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 264,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "五十岚 心弥",
+        "dialogue": "中间那个眼睛，倒是有点像全视之眼。",
+        "avater": "蓝/B02_五十岚心弥/A07_思索.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 265
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 266,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/09_退出界面.ogg",
+        "volume": 0.7,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "Frame.PictureOff",
+      "Identifier": 267,
+      "Parameters": {
+        "duration": 0.3
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 268,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 269,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetTexture",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "texture": "B02_五十岚心弥/A01_平静.png",
+                    "duration": 0
+                  }
+                },
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "alpha": 0,
+                          "duration": 0.0
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "alpha": 1,
+                          "duration": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 270,
+            "Parameters": {
+              "mode": "avatar",
+              "name": "草加 裕介",
+              "dialogue": "那能否通过查询服务器找出把这张图片上传到VIEW中的人？",
+              "avater": "蓝/B05_草加裕介/A15_留意.png",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 271
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 272,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "五十岚 心弥",
+        "dialogue": "应该可以。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 273
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 274,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "那就好，我们在这方面可能需要您的帮助。",
+        "avater": "蓝/B05_草加裕介/A07_麻烦.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 275
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 276,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetFade",
+      "Identifier": 277,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "alpha": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 278,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/03_通话启动.ogg",
+        "volume": 0.4,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "Frame.PictureOn",
+      "Identifier": 279,
+      "Parameters": {
+        "image": "//图片/B_第一章/19_打伞人.png",
+        "color": "blue",
+        "duration": 0.3
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 280,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "然后……请问您对照片上的这个人有印象吗？",
+        "avater": "蓝/B05_草加裕介/A15_留意.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 281
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 282,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "五十岚心弥的目光略微惊讶了一瞬，但随即又恢复了淡漠的表情。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 283
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 284,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "五十岚 心弥",
+        "dialogue": "衣服穿成这么厚又看不到脸，就算是认识的人我也不可能认出来吧。",
+        "avater": "蓝/B02_五十岚心弥/A06_沉思.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 285
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 286,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "那就是认识了？",
+        "avater": "蓝/B05_草加裕介/A14_感兴趣.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 287
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 288,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "五十岚 心弥",
+        "dialogue": "不，不认识。",
+        "avater": "蓝/B02_五十岚心弥/A01_平静.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 289
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 290,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/09_退出界面.ogg",
+        "volume": 0.7,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "Frame.PictureOff",
+      "Identifier": 291,
+      "Parameters": {
+        "duration": 0.3
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 292,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 293,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetTexture",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "texture": "B02_五十岚心弥/A01_平静.png",
+                    "duration": 0
+                  }
+                },
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "alpha": 0,
+                          "duration": 0.0
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "alpha": 1,
+                          "duration": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 294,
+            "Parameters": {
+              "mode": "avatar",
+              "name": "草加 裕介",
+              "dialogue": "这个人是我们正在追查的嫌疑人。所以我想向您打听一下，佐野阳向先生近来有没有和人发生过工作或者财务上的纠纷。",
+              "avater": "蓝/B05_草加裕介/A01_平静.png",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 295
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 296,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A11_无奈.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "没有……至少我没听说过。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 297
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 298,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A07_思索.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "我只知道他和社长之间不太和睦，但两个人平时更多是互相不感冒的态度。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 299
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 300,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "了解了。您刚才提到佐野阳向先生今晚来到鸦巢公寓是有生意要谈？",
+        "avater": "蓝/B05_草加裕介/A01_平静.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 301
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 302,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A10_落寞.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "…………",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 303
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 304,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "五十岚心弥没有回答，草加等待了十几秒才发现她走神了。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 305
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 306,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "五十岚小姐？",
+        "avater": "蓝/B05_草加裕介/A15_留意.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 307
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 308,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A11_无奈.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "……啊，啊？",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 309,
+      "Parameters": {
+        "duration": 0.1
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 310,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "texture": "B02_五十岚心弥/Z01_走神.png",
+        "duration": 0.2
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 311,
+      "Parameters": {
+        "duration": 0.3
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 312,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "texture": "B02_五十岚心弥/A02_吃惊.png",
+        "duration": 0.2
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 313
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 314,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "您是不是有些疲劳？要不先回家休息，我们有需要再与您联系？",
+        "avater": "蓝/B05_草加裕介/A16_悲伤.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 315
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 316,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A10_落寞.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "哦，不好意思，有些走神了，您刚刚是问佐野君来谈生意的事吗？",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 317
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 318,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A01_平静.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "他只跟我说了今晚有生意要谈，没说具体和谁谈什么。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 319
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 320,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "说着，五十岚心弥将一张聊天记录的截图共享了出来。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 321
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 322,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/03_通话启动.ogg",
+        "volume": 0.4,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 323,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Rine",
+              "texture": "//UI/B_第一章/06_聊天记录.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Rine",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Rine",
+              "x": 0,
+              "y": 95,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Rine",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "UI",
+              "name": "Rine",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.PlayEffect",
+      "Identifier": 324,
+      "Parameters": {
+        "target": "UI",
+        "name": "Rine",
+        "type": "ExpandIn",
+        "direction": "vertical",
+        "duration": 0.7
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 325,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "…………",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 326
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 327,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我好像看到了错字。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 328
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 329,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "这就是您和佐野阳向先生最后一次联系？",
+        "avater": "蓝/B05_草加裕介/A17_怀疑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 330
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 331,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "五十岚 心弥",
+        "dialogue": "是的，之后我一直等到零点他都没回消息，我有些担心就主动过来了。",
+        "avater": "蓝/B02_五十岚心弥/A10_落寞.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 332
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 333,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "五十岚 心弥",
+        "dialogue": "没想到……竟然真的……",
+        "avater": "蓝/B02_五十岚心弥/A11_无奈.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 334
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 335,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "十分感谢，您提供的线索对我们很重要。",
+        "avater": "蓝/B05_草加裕介/A02_微笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 336
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 337,
+      "Parameters": {
+        "audio": "//SE/A_系统音效/09_退出界面.ogg",
+        "volume": 0.7,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ImageManager.PlayEffect",
+      "Identifier": 338,
+      "Parameters": {
+        "target": "UI",
+        "name": "Rine",
+        "type": "ExpandOut",
+        "direction": "vertical",
+        "duration": 0.7
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 339,
+      "Parameters": {
+        "target": "UI",
+        "name": "Rine"
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 340,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 341,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetTexture",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "texture": "B02_五十岚心弥/A01_平静.png",
+                    "duration": 0
+                  }
+                },
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "alpha": 0,
+                          "duration": 0.0
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "Kokomi",
+                          "alpha": 1,
+                          "duration": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 342,
+            "Parameters": {
+              "mode": "avatar",
+              "name": "草加 裕介",
+              "dialogue": "最后我想向您确认一件事，您在<b>20时55分前后</b>去过什么地方？",
+              "avater": "蓝/B05_草加裕介/A19_谨慎.png",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 343
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 344,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A06_沉思.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "8点半啊……当时我在乘地铁回家。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 345
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 346,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "那个，我问的是九点前后……",
+        "avater": "蓝/B05_草加裕介/A07_麻烦.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 347
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 348,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "texture": "B02_五十岚心弥/A02_吃惊.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "哦，不好意思！九点钟……我九点钟应该在家吧……",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 349
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 350,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "草加裕介担忧地看了五十岚一眼，她的精神状态确实不太好，也许不该再纠缠不休地问下去了。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 351
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 352,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "感谢您的配合，五十岚小姐。您也不用有太大的心理压力，佐野阳向先生的事我深表遗憾，但我们警方一定会负责任地将犯人抓捕归案。",
+        "avater": "蓝/B05_草加裕介/A01_平静.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 353
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 354,
+      "Parameters": {
+        "mode": "avatar",
+        "name": "草加 裕介",
+        "dialogue": "时间已经很晚了，您先回家休息吧，案件有什么进展我们会随时与您联系。",
+        "avater": "蓝/B05_草加裕介/A02_微笑.png",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 355
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 356,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Kokomi",
+        "texture": "B02_五十岚心弥/A01_平静.png",
+        "duration": 0.2
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 357,
+      "Parameters": {
+        "audio": "//SE/C_布料声/08_布料掀起1.ogg",
+        "volume": 1,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 358,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 359,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -9999,
+                    "y": -725,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Kokomi",
+                    "x": -9999,
+                    "y": -675,
+                    "duration": 0.5,
+                    "curve": "uniform"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 360,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "嗯，谢谢警官。我可能确实有些不舒服，就先回家休息了。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 361
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 362,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Kokomi",
+              "alpha": 0,
+              "duration": 0.7
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "五十岚心弥从椅子上站起，在向警察欠身行了一礼后，缓步走出了物业室的大门。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 363
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 364,
+      "Parameters": {
+        "audio": "//SE/B_开关门/01_自动门开启.ogg",
+        "volume": 1,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 365,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 366,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetScale",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "BMIO",
+                    "scale": 1,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetScale",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "UI",
+                    "name": "BMIO",
+                    "scale": 1.3,
+                    "duration": 0.5,
+                    "curve": "uniform"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "Engine.SetUIMode",
+            "Identifier": 367,
+            "Parameters": {
+              "mode": 3
+            }
+          },
+          {
+            "CommandType": "ParallelCommand",
+            "Identifier": 368,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "Text.ShowText",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "mode": "narration",
+                    "name": "",
+                    "dialogue": "",
+                    "avater": "",
+                    "speed": 9999
+                  }
+                },
+                {
+                  "CommandType": "Text.ChangeAlpha",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "alpha_began": 1,
+                    "alpha_ended": 0,
+                    "time": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 370,
+            "Parameters": {
+              "duration": 3.0,
+              "command": {
+                "CommandType": "AudioManager.SetSE",
+                "Identifier": 369,
+                "Parameters": {
+                  "audio": "//SE/B_开关门/02_自动门关闭.ogg",
+                  "volume": 1,
+                  "loop": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 371,
+      "Parameters": {
+        "duration": 3
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 372,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 373,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Police",
+                    "x": 300,
+                    "y": -9999,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Police",
+                    "x": 0,
+                    "y": -9999,
+                    "duration": 0.7,
+                    "curve": "ease_out"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 374,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Police",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Police",
+                    "alpha": 1,
+                    "duration": 0.7
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 375,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 376,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "女警员",
+        "dialogue": "草加警官。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 377
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 378,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 379,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Yusuke",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Yusuke",
+                    "alpha": 1,
+                    "duration": 0.7
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 380,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Yusuke",
+                    "x": 700,
+                    "y": -9999,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Yusuke",
+                    "x": 350,
+                    "y": -9999,
+                    "duration": 0.7,
+                    "curve": "ease_out"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 381,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Police",
+                    "x": 0,
+                    "y": -9999,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "Police",
+                    "x": -350,
+                    "y": -9999,
+                    "duration": 0.7,
+                    "curve": "ease_out"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 382,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "Police",
+        "factor": 0.4
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 383,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "草加 裕介",
+        "dialogue": "嗯？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 384
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 385,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "factor": 2.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "factor": 0.4
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "女警员",
+              "dialogue": "被害人的载波电极损坏得很严重，估计难以恢复完整数据。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 386
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 387,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "factor": 2.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "factor": 0.4
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "texture": "B05_草加裕介/A04_思考.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "草加 裕介",
+              "dialogue": "…………",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 388
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 389,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "texture": "B05_草加裕介/A01_平静.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "五十岚 心弥",
+              "dialogue": "我知道了。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 390
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 391,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "草加 裕介",
+        "dialogue": "总之先从被害人的人际关系开始查起吧，向检察院申请一下调取一下公民信息库。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 392
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 393,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "factor": 2.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "factor": 0.4
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "女警员",
+              "dialogue": "是。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 394
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 395,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 396,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 397,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Police",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 398,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "Yusuke",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 400,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "AudioManager.VolumeChange",
+                "Identifier": 399,
+                "Parameters": {
+                  "duration": 1,
+                  "begin": 0.7,
+                  "end": 0
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 402,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "SequentialCommand",
+                "Identifier": 401,
+                "Parameters": {
+                  "subcommands": [
+                    {
+                      "CommandType": "ImageManager.SetFade",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "Image",
+                        "name": "Room",
+                        "alpha": 1,
+                        "duration": 0.0
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetFade",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "Image",
+                        "name": "Room",
+                        "alpha": 0,
+                        "duration": 1
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 403,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "Engine.ClearScene",
+      "Identifier": 404,
+      "Parameters": {}
+    },
+    {
+      "CommandType": "Engine.SetUIMode",
+      "Identifier": 405,
+      "Parameters": {
+        "mode": 3
+      }
+    },
+    {
+      "CommandType": "Engine.SetChapter",
+      "Identifier": 406,
+      "Parameters": {
+        "id": "01",
+        "title": "边界徘徊的七等星"
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 407,
+      "Parameters": {
+        "audio": "//BGM/A01_Pulse_PVver.mp3",
+        "volume": 0,
+        "loop": false,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 408,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 409,
+      "Parameters": {
+        "key": "CanAuto",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 410,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 411,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "之后的调查我就没有继续旁观下去了。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 412
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 413,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "也许是对吉田雪绘说过的话有些在意，我跟上了从公寓离开的五十岚心弥。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 414
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 415,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "心想着，能不能在她独身一人时，得到些她和我关系的线索。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 416
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 417,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "…………",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 418
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 419,
+      "Parameters": {
+        "audio": "//BGM/J02-忆之庭.mp3",
+        "volume": 0.7,
+        "loop": true,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 420,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我悄无声息地走在她身后，脑海中也开始思考起了一些比较沉重的问题。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 421
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 422,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我……死了。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 423
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 424,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "但我的意识还苏醒着，无法体会到死亡的实感。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 425
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 426,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我有亲人吗？朋友总该有的吧。他们得知我死讯的时候，会不会感到悲痛呢？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 427
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 428,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "人的死亡不过一瞬之间，但却会给身边亲近的人带来久久无法愈合的伤害。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 429
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 430,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我能够平静地接受自己身为幽灵的现实，但与我亲近的人呢？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 431
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 432,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "只是……",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 433
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 434,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我在心中诘责起了自己一个问题。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 435
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 436,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "你……真的是因为在意五十岚心弥，才离开案发现场不继续旁观调查的吗？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 437
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 438,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "还是说，你在逃避？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 439
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 440,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "你在逃避从警察口中，得知关于你亲人朋友的消息？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 441
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 442,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "思绪陷入沉顿。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 443
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 444,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "就这样，一路走到了城市中的公园。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 445
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 446,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 447,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CG",
+              "texture": "B_第一章/20A_公园里的五十岚心弥.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CG",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CG",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CG",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CG",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 448,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CG",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CG",
+              "alpha": 1,
+              "duration": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 449,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 450,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "五十岚 心弥",
+        "dialogue": "…………",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 451
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 452,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "深夜来到公园的五十岚心弥，在湖边驻足了下来。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 453
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 454,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "她垂着头，将面容隐藏在幽暗的夜色中，让我无法看清她脸上的表情。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 455
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 456,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我有些心慌，担心等她抬起头来后，脸上会出现我最不愿看到的……眼泪的痕迹。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 457
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 458,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "果然，当我借着月光再度观察时，在她眼中看到了一朵晶莹的泪花。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 459
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 460,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "沉寂良久之后，女孩抬起头来，将目光投向了在城市万家灯火的映照下显得了无生气的夜空。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 461
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 462,
+      "Parameters": {
+        "target": "Image",
+        "name": "CG",
+        "texture": "B_第一章/20B_公园里的五十岚心弥.png",
+        "duration": 1
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 463,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "五十岚 心弥",
+        "dialogue": "<size=30>如果……这也是对我的报复的话……</size>",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 464
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 465,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "五十岚 心弥",
+        "dialogue": "你一定要平安无事啊……<b>前辈</b>。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 466
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 467,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 468,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 469,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "CG",
+                    "alpha": 1,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "CG",
+                    "alpha": 0,
+                    "duration": 2
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 471,
+            "Parameters": {
+              "duration": 1.0,
+              "command": {
+                "CommandType": "AudioManager.VolumeChange",
+                "Identifier": 470,
+                "Parameters": {
+                  "duration": 3,
+                  "begin": 0.7,
+                  "end": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 472,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": false
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 473,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "texture": "A_公用图片/01_章节过渡.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 474,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "alpha": 1,
+              "duration": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 475,
+      "Parameters": {
+        "duration": 2.5
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 476,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "CPT",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 477,
+      "Parameters": {
+        "key": "SYSTEM__StoryArrow_6",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 478,
+      "Parameters": {
+        "duration": 1
+      }
+    },
+    {
+      "CommandType": "Engine.JumpToScript",
+      "Identifier": 479,
+      "Parameters": {
+        "script": "脚本/V2/sv_01_07.json"
+      }
+    }
+  ]
+}

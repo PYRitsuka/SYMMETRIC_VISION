@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Portrait
+  m_EditorClassIdentifier: 
+  m_GroupName: Portrait
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3d3c7b91b2818a344b2b4728b4a3e38f
+  m_SerializeEntries:
+  - m_GUID: 09af454e83a989c4fb01f89159308f74
+    m_Address: "Assets/Addressables/\u7ACB\u7ED8"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d6e54c294e1187444b03388b8be07855, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 16ebfb7615e0f5440a16ec32b27c3692, type: 2}
+    - {fileID: 11400000, guid: 5f99f1561d197ce4799360f24b1c91f6, type: 2}

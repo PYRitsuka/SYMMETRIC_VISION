@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Effect
+  m_EditorClassIdentifier: 
+  m_GroupName: Effect
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0cce045cab2df224795c17f81114971c
+  m_SerializeEntries:
+  - m_GUID: 01d485c757d0f974da9cd1897b5dfd6e
+    m_Address: "Assets/Addressables/\u7279\u6548"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d6e54c294e1187444b03388b8be07855, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d22e918456743064d920d2aef75baedf, type: 2}
+    - {fileID: 11400000, guid: 14555c35cbe6ad747894cd39a3b47000, type: 2}
+    - {fileID: 11400000, guid: f95d63f1146c9ac4a99ba18097a5688e, type: 2}

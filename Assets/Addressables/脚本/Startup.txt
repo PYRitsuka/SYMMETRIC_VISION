@@ -1,0 +1,4 @@
+程序,,串行,CanSkip(false);
+程序,,串行,"StoryBlock(0,true);"
+程序,,串行,"StoryArrow(0,true);"
+程序,,串行,JumpToScript(sv_01_23.txt);

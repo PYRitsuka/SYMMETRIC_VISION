@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TextBox
+  m_EditorClassIdentifier: 
+  m_GroupName: TextBox
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 44d0e5c82df0ad8428339b18515fdfcb
+  m_SerializeEntries:
+  - m_GUID: ff657dab529adaf4aae9a900b7626a76
+    m_Address: "Assets/Addressables/\u6587\u672C\u6846"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d6e54c294e1187444b03388b8be07855, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 164890edf4d24be4b8fa73a3c128b01a, type: 2}
+    - {fileID: 11400000, guid: c074912bd4a3e6d4cb2e9fc30857e83b, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Rine
+  m_EditorClassIdentifier: 
+  m_GroupName: Rine
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cd77e5e65faba544997b3671fc930115
+  m_SerializeEntries:
+  - m_GUID: 802b983967e22de4292cdc7522195d90
+    m_Address: Assets/Addressables/Rine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d6e54c294e1187444b03388b8be07855, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8c28a59226bef4c42805ab1b0859dd23, type: 2}
+    - {fileID: 11400000, guid: 9197ce478237e6c42a4a4152355b10ea, type: 2}

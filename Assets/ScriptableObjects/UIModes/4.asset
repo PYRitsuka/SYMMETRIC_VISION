@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de86b5498d5d4b859b33bc07181ee82c, type: 3}
+  m_Name: 4
+  m_EditorClassIdentifier: 
+  m_frame: {fileID: 2800000, guid: 484344fcba4d6c44ba758e9ba9468b3c, type: 3}
+  m_framer: {fileID: 2800000, guid: 686951189835bab4a98b4b7691deecdb, type: 3}
+  m_framel: {fileID: 2800000, guid: c8afb30e689c1c04ab5c51a5d71638dd, type: 3}
+  m_nameFrame: {fileID: 2800000, guid: d756bf03d7bcb5b438b6f3ff20213ce1, type: 3}
+  m_nameColor: {r: 0.003921569, g: 0.003921569, b: 0.003921569, a: 1}
+  m_tipsURL: {fileID: 21300000, guid: a36c7f5da57103e49aa30e9677781d5c, type: 3}
+  m_autoFrame: {fileID: 2800000, guid: d0f7e17955b880046bbb8b43b8572700, type: 3}
+  m_autoMark: {fileID: 21300000, guid: 85352fb5b64a966438e1bc83104795aa, type: 3}
+  m_skipFrame: {fileID: 2800000, guid: af657e08d634217498f6a31f198ad598, type: 3}
+  m_skipMark: {fileID: 21300000, guid: 79ea5fe622dae5447adf0ee1e78d3c7a, type: 3}
+  m_gamehelp: {fileID: 21300000, guid: 7aa524c9f0b04404ba57ed83beae2b3d, type: 3}
+  m_gamehelpMobile: {fileID: 21300000, guid: 1dc36182791744d4ba52b2b02094128b, type: 3}
+  m_backlogFrame: {fileID: 21300000, guid: b297284c93284cc46b83342290ab724d, type: 3}
+  m_backlogPromptFrame: {fileID: 21300000, guid: b074f947ba4fc854c946bbf48d390781, type: 3}
+  m_backlogPromptFrame_PC: {fileID: 21300000, guid: 2dc3163b879aa8c4994f9c7f6dc335d8, type: 3}
+  m_backlogScrollbar: {fileID: 21300000, guid: 49d43199b4fe77648a02cf1598194925, type: 3}
+  m_logBackground: {fileID: 21300000, guid: b9b639fd2ea3fc9449955003a1cae994, type: 3}
+  m_saveFrame: {fileID: 21300000, guid: 75a489dc5f9e1e345939a5ecfff8b15c, type: 3}
+  m_loadFrame: {fileID: 21300000, guid: 96b0b7d63307eb54bbafe2181087316e, type: 3}
+  m_contextMenu: {fileID: 21300000, guid: c7b7daa5838484d4fb25b23e3bc9505a, type: 3}
+  m_mainColor: {r: 0.8745098, g: 0.8745098, b: 0.8745098, a: 1}
+  settingBg: {fileID: 21300000, guid: a47d8045142e3ac4b87970df3b7e50a3, type: 3}
+  settingSlideBar: {fileID: 21300000, guid: 3f11fc7df69f2564499bc4c1f3b17cde, type: 3}
+  settingConfirmButton: {fileID: 21300000, guid: c0850f6a94d0fce4a8a5bf4dbe4fc8ac, type: 3}
+  settingResetButton: {fileID: 21300000, guid: e6c9af00441e84c4c8b61886177d10e1, type: 3}
+  settingSwitchButton: {fileID: 21300000, guid: e9a1f4969c3387b4fa375bd54b162ae8, type: 3}
+  selectionBackground: {fileID: 21300000, guid: 996381585dae0e24b856081f357bfa7b, type: 3}
+  StorylineTitle: {fileID: 21300000, guid: 9ac24d44ba03b32478b179baa48afa7c, type: 3}
+  StorylineTitle_PC: {fileID: 21300000, guid: 1e73071f88e462d4ca649eb92d0dd6d1, type: 3}
+  StorylineCP: {fileID: 21300000, guid: 4a52dfe1b85c8ff4db59d229c93f468b, type: 3}

@@ -1,0 +1,8 @@
+<linker>
+    <assembly fullname="CsvHelper, Version=30.0.1.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+        <type fullname="CsvHelper.Configuration" preserve="all"/>
+    </assembly>
+    <assembly fullname="System.Core, Version=4.0.30319.17020, Culture=neutral, PublicKeyToken=null">
+        <type fullname="System.Linq.Expressions.Interpreter.LightLambda" preserve="all"/>
+    </assembly>
+</linker>

@@ -1,0 +1,4 @@
+repository "SYMMETRIC_VISION@tj_meayuseiritsuka@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
