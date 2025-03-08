@@ -1,0 +1,3378 @@
+{
+  "Commands": [
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 0,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": false
+      }
+    },
+    {
+      "CommandType": "VisionTrigger",
+      "Identifier": 1,
+      "Parameters": {}
+    },
+    {
+      "CommandType": "Engine.SetChapter",
+      "Identifier": 2,
+      "Parameters": {
+        "id": "01",
+        "title": "谱线蓝移的七等星"
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 3,
+      "Parameters": {
+        "audio": "//BGM/A01_Pulse_PVver.mp3",
+        "volume": 0,
+        "loop": false,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 4,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "Engine.SetUIMode",
+      "Identifier": 5,
+      "Parameters": {
+        "mode": 0
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 6,
+      "Parameters": {
+        "key": "CanSkip",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SetFlag",
+      "Identifier": 7,
+      "Parameters": {
+        "key": "CanAuto",
+        "value": true
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 8,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Out",
+              "texture": "//背景/09B_校园一角.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Out",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Out",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Out",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Out",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 9,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG3",
+              "texture": "//背景/09B_校园一角.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG3",
+              "scale": 2,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG3",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG3",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG3",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 10,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG2",
+              "texture": "//背景/09B_校园一角.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG2",
+              "scale": 2,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG2",
+              "x": 0,
+              "y": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG2",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG2",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 11,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "texture": "江沐橙/4110.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "x": -325,
+              "y": -350,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "colorcode": "#F7F1EA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 12,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "texture": "白筱筱/1135.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "x": 400,
+              "y": -300,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "colorcode": "#F7F1EA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 13,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "texture": "NPC/男学生B.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "x": -500,
+              "y": -300,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "colorcode": "#F7F1EA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 14,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.Add",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "texture": "NPC/男学生C.png"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "x": 400,
+              "y": -275,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "colorcode": "#F7F1EA"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "AudioManager.SetBGM",
+      "Identifier": 15,
+      "Parameters": {
+        "audio": "//BGM/F01.mp3",
+        "volume": 0.45,
+        "loop": true,
+        "begin": 0,
+        "end": 0
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 16,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Out",
+              "x": -9999,
+              "y": -9999,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "Out",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 17,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 18,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCA",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCA",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 19,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 20,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 21,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "？？",
+        "dialogue": "哟两位靓女，这是在搬东西？要不要我们哥俩帮忙啊？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 22
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 23,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 24,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 25,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 26,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 27,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 28,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 29,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "BXX",
+        "factor": 0.4
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 30,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "江沐橙",
+        "dialogue": "啊？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 31
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 32,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "factor": 2.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "factor": 0.4
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "texture": "白筱筱/2931.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "白筱筱",
+              "dialogue": "谢谢，不用了。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 33
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 34,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "ImageManager.SetColorByFactor",
+                "Identifier": 1,
+                "Parameters": {
+                  "target": "Tachie",
+                  "name": "JMC",
+                  "factor": 2.5
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "Text.ShowText",
+                "Identifier": 1,
+                "Parameters": {
+                  "mode": "narration",
+                  "name": "",
+                  "dialogue": "",
+                  "avater": "",
+                  "speed": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 35,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCA",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCA",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "ImageManager.SetColorByFactor",
+                "Identifier": 1,
+                "Parameters": {
+                  "target": "Tachie",
+                  "name": "NPCB",
+                  "factor": 0.4
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "Text.ShowText",
+                "Identifier": 1,
+                "Parameters": {
+                  "mode": "dialogue",
+                  "name": "路人A",
+                  "dialogue": "我们没别的意思，就只是想帮个忙，交个朋友。",
+                  "avater": "",
+                  "speed": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 36
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 37,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "factor": 2.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "factor": 0.4
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "路人B",
+              "dialogue": "是啊是啊，正好认识认识嘛，都是住附近的。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 38
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 39,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "ImageManager.SetColorByFactor",
+                "Identifier": 1,
+                "Parameters": {
+                  "target": "Tachie",
+                  "name": "NPCA",
+                  "factor": 2.5
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "Text.ShowText",
+                "Identifier": 1,
+                "Parameters": {
+                  "mode": "narration",
+                  "name": "",
+                  "dialogue": "",
+                  "avater": "",
+                  "speed": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 40,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetTexture",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "texture": "白筱筱/2934.png",
+                    "duration": 0
+                  }
+                },
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "BXX",
+                          "alpha": 0,
+                          "duration": 0.0
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "BXX",
+                          "alpha": 1,
+                          "duration": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "ImageManager.SetColorByFactor",
+                "Identifier": 1,
+                "Parameters": {
+                  "target": "Tachie",
+                  "name": "JMC",
+                  "factor": 0.4
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "Text.ShowText",
+                "Identifier": 1,
+                "Parameters": {
+                  "mode": "dialogue",
+                  "name": "白筱筱",
+                  "dialogue": "不用麻烦了，我们就走几步路就到了，谢谢你们的好意。",
+                  "avater": "",
+                  "speed": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 41
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 42,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "ImageManager.SetColorByFactor",
+                "Identifier": 1,
+                "Parameters": {
+                  "target": "Tachie",
+                  "name": "JMC",
+                  "factor": 2.5
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "Text.ShowText",
+                "Identifier": 1,
+                "Parameters": {
+                  "mode": "narration",
+                  "name": "",
+                  "dialogue": "",
+                  "avater": "",
+                  "speed": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 43,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCA",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCA",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "ImageManager.SetColorByFactor",
+                "Identifier": 1,
+                "Parameters": {
+                  "target": "Tachie",
+                  "name": "NPCB",
+                  "factor": 0.4
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "Text.ShowText",
+                "Identifier": 1,
+                "Parameters": {
+                  "mode": "dialogue",
+                  "name": "路人A",
+                  "dialogue": "欸你们住哪栋啊？是不是还要搬上楼，放心交给我们吧。",
+                  "avater": "",
+                  "speed": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 44
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 45,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "ImageManager.SetColorByFactor",
+                "Identifier": 1,
+                "Parameters": {
+                  "target": "Tachie",
+                  "name": "NPCB",
+                  "factor": 2.5
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "Text.ShowText",
+                "Identifier": 1,
+                "Parameters": {
+                  "mode": "narration",
+                  "name": "",
+                  "dialogue": "",
+                  "avater": "",
+                  "speed": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 46,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetTexture",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "texture": "江沐橙/4326.png",
+                    "duration": 0
+                  }
+                },
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "JMC",
+                          "alpha": 0,
+                          "duration": 0.0
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "JMC",
+                          "alpha": 1,
+                          "duration": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "ImageManager.SetColorByFactor",
+                "Identifier": 1,
+                "Parameters": {
+                  "target": "Tachie",
+                  "name": "BXX",
+                  "factor": 0.4
+                }
+              }
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 1,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "Text.ShowText",
+                "Identifier": 1,
+                "Parameters": {
+                  "mode": "dialogue",
+                  "name": "江沐橙",
+                  "dialogue": "真的不用，我们走吧筱筱。",
+                  "avater": "",
+                  "speed": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 47
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 48,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 49,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 50,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "x": -325,
+                    "y": -350,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "x": 475,
+                    "y": -350,
+                    "duration": 1,
+                    "curve": "ease_out"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 51,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "x": 400,
+                    "y": -300,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "x": 1200,
+                    "y": -300,
+                    "duration": 1,
+                    "curve": "ease_out"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 52,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 53,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "x": -1200,
+                    "y": -275,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "x": -400,
+                    "y": -275,
+                    "duration": 1,
+                    "curve": "ease_out"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "DelayedExecution",
+            "Identifier": 55,
+            "Parameters": {
+              "duration": 0.5,
+              "command": {
+                "CommandType": "SequentialCommand",
+                "Identifier": 54,
+                "Parameters": {
+                  "subcommands": [
+                    {
+                      "CommandType": "ImageManager.SetFade",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "Tachie",
+                        "name": "NPCB",
+                        "alpha": 0,
+                        "duration": 0.0
+                      }
+                    },
+                    {
+                      "CommandType": "ImageManager.SetFade",
+                      "Identifier": 1,
+                      "Parameters": {
+                        "target": "Tachie",
+                        "name": "NPCB",
+                        "alpha": 1,
+                        "duration": 0.5
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 56,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "JMC",
+        "factor": 0.4
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 57,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "路人B",
+        "dialogue": "靓女，看你们两个提这么大箱子多辛苦，让我们来帮帮忙嘛～",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 58
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 59,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "factor": 2.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetColorByFactor",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "factor": 0.4
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "texture": "江沐橙/4143.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "江沐橙",
+              "dialogue": "说了不用了，能不能别纠缠啦！",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 60
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 61,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "AudioManager.StopSE",
+      "Identifier": 62,
+      "Parameters": {}
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 63,
+      "Parameters": {
+        "audio": "//SE/C_布料声/21_布料撞击然后摩擦.ogg",
+        "volume": 1,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 64,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "NPCB",
+        "factor": 2.5
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 65,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "x": -400,
+              "y": -275,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "x": 0,
+              "y": -275,
+              "duration": 0.5,
+              "curve": "uniform"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetTexture",
+      "Identifier": 66,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "JMC",
+        "texture": "江沐橙/4C75.png",
+        "duration": 0
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetShakeState",
+      "Identifier": 67,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "JMC",
+        "state": "medium",
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 68,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "江沐橙",
+        "dialogue": "诶诶别上手！小心我喊人了！",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 69
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 70,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 71,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 72,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 73,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "AudioManager.StopSE",
+      "Identifier": 74,
+      "Parameters": {}
+    },
+    {
+      "CommandType": "AudioManager.SetSE",
+      "Identifier": 75,
+      "Parameters": {
+        "audio": "//SE/D_脚步声/08_登场的脚步声.ogg",
+        "volume": 0.8,
+        "loop": false
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 76,
+      "Parameters": {
+        "duration": 1
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 77,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 78,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "我",
+        "dialogue": "怎么回事？好热闹啊。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 79
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 80,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 1,
+              "alpha_ended": 0,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 81,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "texture": "江沐橙/4C4B.png",
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "x": -325,
+              "y": -350,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 82,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "texture": "白筱筱/2133.png",
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "x": 400,
+              "y": -300,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 83,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "x": 400,
+              "y": -275,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 84,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 85,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCA",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCA",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 86,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "NPCB",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 87,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 88,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 89,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCA",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 90,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "NPCB",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitCommand",
+      "Identifier": 91,
+      "Parameters": {
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetColorByFactor",
+      "Identifier": 92,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "BXX",
+        "factor": 2.5
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 93,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 94,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 95,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 96,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "narration",
+              "name": "",
+              "dialogue": "",
+              "avater": "",
+              "speed": 9999
+            }
+          },
+          {
+            "CommandType": "Text.ChangeAlpha",
+            "Identifier": 1,
+            "Parameters": {
+              "alpha_began": 0,
+              "alpha_ended": 1,
+              "time": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 97,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "我打量了一下现场这几人。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 98
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 99,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 100,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 101,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 102,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 103,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 1,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetScale",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "BG2",
+                    "scale": 2,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetLocation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "BG2",
+                    "x": 800,
+                    "y": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetRotation",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "BG2",
+                    "angle": 0,
+                    "duration": 0.0,
+                    "curve": "constant"
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "BG2",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetKeepMove",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG2",
+              "x": 0,
+              "y": 0,
+              "angle": 0,
+              "scale": 2,
+              "duration": 60,
+              "curve": "uniform",
+              "alpha": 1,
+              "alphaTime": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 104,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "scale": 1.25,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "x": -325,
+              "y": -500,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 105,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "scale": 1.25,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "x": 400,
+              "y": -500,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 106,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 107,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetScale",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "JMC",
+                          "scale": 1.25,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetLocation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "JMC",
+                          "x": -375,
+                          "y": -500,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetRotation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "JMC",
+                          "angle": 0,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetKeepMove",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "x": -325,
+                    "y": -500,
+                    "angle": 0,
+                    "scale": 1.25,
+                    "duration": 30,
+                    "curve": "uniform",
+                    "alpha": -1,
+                    "alphaTime": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 108,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 109,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "居然真是她们，我刚刚听声音就觉得耳熟。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 110
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 111,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ImageManager.SetFade",
+      "Identifier": 112,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "JMC",
+        "alpha": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 113,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 114,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "BG2",
+                    "alpha": 1,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "BG2",
+                    "alpha": 0,
+                    "duration": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 115,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetScale",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Image",
+                          "name": "BG3",
+                          "scale": 2,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetLocation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Image",
+                          "name": "BG3",
+                          "x": -800,
+                          "y": 0,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetRotation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Image",
+                          "name": "BG3",
+                          "angle": 0,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetFade",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Image",
+                          "name": "BG3",
+                          "alpha": 1,
+                          "duration": 0.0
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetKeepMove",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Image",
+                    "name": "BG3",
+                    "x": 0,
+                    "y": 0,
+                    "angle": 0,
+                    "scale": 2,
+                    "duration": 60,
+                    "curve": "uniform",
+                    "alpha": 1,
+                    "alphaTime": 0
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.StopMove",
+      "Identifier": 116,
+      "Parameters": {
+        "target": "Image",
+        "name": "BG2"
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 117,
+      "Parameters": {
+        "target": "Image",
+        "name": "BG2"
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 118,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 119,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "SequentialCommand",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "subcommands": [
+                      {
+                        "CommandType": "ImageManager.SetScale",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "BXX",
+                          "scale": 1.25,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetLocation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "BXX",
+                          "x": 450,
+                          "y": -500,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      },
+                      {
+                        "CommandType": "ImageManager.SetRotation",
+                        "Identifier": 1,
+                        "Parameters": {
+                          "target": "Tachie",
+                          "name": "BXX",
+                          "angle": 0,
+                          "duration": 0.0,
+                          "curve": "constant"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetKeepMove",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "x": 400,
+                    "y": -500,
+                    "angle": 0,
+                    "scale": 1.25,
+                    "duration": 30,
+                    "curve": "uniform",
+                    "alpha": -1,
+                    "alphaTime": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 120,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.StopMove",
+      "Identifier": 121,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "JMC"
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 122,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "从刚刚听到的只言片语，和几个人的神态，我大概了解了状况。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 123
+    },
+    {
+      "CommandType": "ImageManager.SetFade",
+      "Identifier": 124,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "BXX",
+        "alpha": 0,
+        "duration": 0.5
+      }
+    },
+    {
+      "CommandType": "ImageManager.StopMove",
+      "Identifier": 125,
+      "Parameters": {
+        "target": "Tachie",
+        "name": "BXX"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 126,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG3",
+              "alpha": 1,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Image",
+              "name": "BG3",
+              "alpha": 0,
+              "duration": 1
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ImageManager.StopMove",
+      "Identifier": 127,
+      "Parameters": {
+        "target": "Image",
+        "name": "BG3"
+      }
+    },
+    {
+      "CommandType": "ImageManager.Remove",
+      "Identifier": 128,
+      "Parameters": {
+        "target": "Image",
+        "name": "BG3"
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 129,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "x": -325,
+              "y": -350,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 130,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "scale": 1,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "x": 400,
+              "y": -300,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 131,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 132,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "JMC",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "CommandType": "SequentialCommand",
+            "Identifier": 133,
+            "Parameters": {
+              "subcommands": [
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 0,
+                    "duration": 0.0
+                  }
+                },
+                {
+                  "CommandType": "ImageManager.SetFade",
+                  "Identifier": 1,
+                  "Parameters": {
+                    "target": "Tachie",
+                    "name": "BXX",
+                    "alpha": 1,
+                    "duration": 0.5
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 134
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 135,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "",
+        "avater": "",
+        "speed": 9999
+      }
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 136,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 137,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "JMC",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 138,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "alpha": 0,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 139,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "texture": "白筱筱/2213.png",
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetScale",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "scale": 1.25,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetLocation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "x": 0,
+              "y": -500,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetRotation",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "angle": 0,
+              "duration": 0.0,
+              "curve": "constant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "SequentialCommand",
+      "Identifier": 140,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "alpha": 0,
+              "duration": 0.0
+            }
+          },
+          {
+            "CommandType": "ImageManager.SetFade",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "alpha": 1,
+              "duration": 0.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 141,
+      "Parameters": {
+        "mode": "narration",
+        "name": "",
+        "dialogue": "白筱筱和我使了一下眼神。",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 142
+    },
+    {
+      "CommandType": "Text.ShowText",
+      "Identifier": 143,
+      "Parameters": {
+        "mode": "dialogue",
+        "name": "我",
+        "dialogue": "搭讪？",
+        "avater": "",
+        "speed": 30
+      }
+    },
+    {
+      "CommandType": "WaitForClick",
+      "Identifier": 144
+    },
+    {
+      "CommandType": "ParallelCommand",
+      "Identifier": 145,
+      "Parameters": {
+        "subcommands": [
+          {
+            "CommandType": "ImageManager.SetTexture",
+            "Identifier": 1,
+            "Parameters": {
+              "target": "Tachie",
+              "name": "BXX",
+              "texture": "白筱筱/2212.png",
+              "duration": 0.2
+            }
+          },
+          {
+            "CommandType": "Text.ShowText",
+            "Identifier": 1,
+            "Parameters": {
+              "mode": "dialogue",
+              "name": "白筱筱",
+              "dialogue": "嗯。",
+              "avater": "",
+              "speed": 30
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -71,3 +71,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Fonts/SourceHanSansSC-Bold.asset
+Assets/Fonts/SourceHanSansSC-Outline.asset
+Assets/Fonts/SourceHanSansSC-OutlineB.asset
+Assets/Fonts/SourceHanSansSC-Regular.asset

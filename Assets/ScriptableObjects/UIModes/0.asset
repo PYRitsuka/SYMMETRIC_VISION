@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de86b5498d5d4b859b33bc07181ee82c, type: 3}
   m_Name: 0
   m_EditorClassIdentifier: 
-  m_frame: {fileID: 2800000, guid: 8e38dda303c36fd4481a6d6a963bf810, type: 3}
-  m_framer: {fileID: 2800000, guid: e436ccd05499988469e48d798fcc1d27, type: 3}
-  m_framel: {fileID: 2800000, guid: c8afb30e689c1c04ab5c51a5d71638dd, type: 3}
-  m_nameFrame: {fileID: 2800000, guid: a2b43e5fb0d929849b55db87f3fecc12, type: 3}
+  m_frame: {fileID: 2800000, guid: c582427edfc01e3498bd7350aea732d8, type: 3}
+  m_framer: {fileID: 0}
+  m_framel: {fileID: 0}
+  m_nameFrame: {fileID: 2800000, guid: 1ee4a947c6aa2424caccbd042eb82398, type: 3}
   m_nameColor: {r: 0, g: 0, b: 0, a: 1}
   m_tipsURL: {fileID: 21300000, guid: 8323545159d935f498248e565e34910b, type: 3}
   m_autoFrame: {fileID: 2800000, guid: 62a907c46cb11cb43bf18a67e25b5d21, type: 3}
